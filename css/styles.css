@@ -10136,6 +10136,16 @@ section.resume-section .resume-section-content {
 
 
 /***/
+
+.box{
+  width: 100%;
+  height: 100%;            
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;  /* for demo purpose  */
+}
+
 /**Background animation*/
 @-webkit-keyframes bg-pan-left{0%{background-position:100% 50%}100%{background-position:0 50%}}@keyframes bg-pan-left{0%{background-position:100% 50%}100%{background-position:0 50%}}
 .bg-pan-left{-webkit-animation:bg-pan-left 4s cubic-bezier(.77,0.000,.175,1.000) infinite alternate both;animation:bg-pan-left 4s cubic-bezier(.77,0.000,.175,1.000) infinite alternate both}
@@ -10144,5 +10154,22 @@ section.resume-section .resume-section-content {
 @-webkit-keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}@keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}
 .tracking-in-contract{-webkit-animation:tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both}
 
- @-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
- .tracking-in-expand{-webkit-animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) both}
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+.tracking-in-expand{-webkit-animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) both}
+
+@-webkit-keyframes kenburns-top-right{0%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0);-webkit-transform-origin:84% 16%;transform-origin:84% 16%}100%{-webkit-transform:scale(1.25) translate(20px,-15px);transform:scale(1.25) translate(20px,-15px);-webkit-transform-origin:right top;transform-origin:right top}}@keyframes kenburns-top-right{0%{-webkit-transform:scale(1) translate(0,0);transform:scale(1) translate(0,0);-webkit-transform-origin:84% 16%;transform-origin:84% 16%}100%{-webkit-transform:scale(1.25) translate(20px,-15px);transform:scale(1.25) translate(20px,-15px);-webkit-transform-origin:right top;transform-origin:right top}}
+.kenburns-top-right{-webkit-animation:kenburns-top-right 5s linear infinite alternate both;animation:kenburns-top-right 5s linear infinite alternate both}
+
+@-webkit-keyframes bg-pan-left-sky{0%{background-position:100% 50%}100%{background-position:0 50%}}@keyframes bg-pan-left-sky{0%{background-position:100% 50%}100%{background-position:0 50%}}
+.bg-pan-left-sky{-webkit-animation:bg-pan-left-sky 8s linear infinite both;animation:bg-pan-left-sky 8s linear infinite both}
+
+@-webkit-keyframes bg-pan-right{0%{background-position:0 50%}100%{background-position:100% 50%}}@keyframes bg-pan-right{0%{background-position:0 50%}100%{background-position:100% 50%}}
+.bg-pan-right{-webkit-animation:bg-pan-right 40s linear infinite both;animation:bg-pan-right 40s linear infinite both}
+
+
+ @-webkit-keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+.slide-in-left{-webkit-animation:slide-in-left 2s cubic-bezier(.075,.82,.165,1.000) both;animation:slide-in-left 2s cubic-bezier(.075,.82,.165,1.000) both}
+
+
+@-webkit-keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+.slide-in-right{-webkit-animation:slide-in-right 2s cubic-bezier(.23,1.000,.32,1.000) both;animation:slide-in-right 2s cubic-bezier(.23,1.000,.32,1.000) both}
